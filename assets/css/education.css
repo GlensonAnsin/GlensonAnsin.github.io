@@ -76,8 +76,11 @@ small {
 }
 .d-flex.flex-column.h-100.p-5.pb-3.text-white.text-shadow-1 {
     border: solid;
-    border-color: blue;
+    border-color: black;
     border-radius: 16px;
+}
+.d-flex.flex-column.h-100.p-5.pb-3.text-white.text-shadow-1:hover {
+    border-color: #a3d6ff;
 }
 
 /* Footer */
