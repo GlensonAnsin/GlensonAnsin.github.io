@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Glenson Ansin</title>
+    <title>Glenson Ansin - Home</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, intital-scale1.0">
 
     <!--EXTERNAL CSS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css">
 
     <!--FAVICON-->
     <link href="assets/images/favicon.png" rel="icon">
@@ -15,20 +15,26 @@
     <!--BOXICONS CSS-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--JAVASCRIPT BUNDLE WITH POPPER-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo-container">
-                <img src="assets/images/logo.png" alt="logo">
+                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
             </div>
             <div class="nav-container">
                 <nav class="header-navigation">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Contact</a>
+                    <a href="index.html">Home</a>
+                    <a href="../GlensonAnsin.github.io/web-pages/about.html">About</a>
+                    <a href="../GlensonAnsin.github.io/web-pages/education.html">Education</a>
+                    <a href="../GlensonAnsin.github.io/web-pages/skills.html">Skills</a>
+                    <a href="../GlensonAnsin.github.io/web-pages/contact.html">Contact</a>
                 </nav>
             </div>
         </div>
@@ -37,90 +43,36 @@
     <section class="banner-section">
         <div class="container">
             <div class="banner">
-                <h1>Hi, I'm Glenson Ansin<br>Welcome to my Personal Website!</h1>
+                <h1>Hi, I'm <span>Glenson Ansin</span><br>Welcome to my Personal Website!</h1>
             </div>
         </div>
+            <div class="my-picture">
+                <img src="../GlensonAnsin.github.io/assets/images/Glenson No BG.png" alt="My Picture">
+            </div>
     </section>
 
-    <section class="about-section">
+    <section class="quote"> 
         <div class="container">
-            <h2>About</h2>
-            <div class="about-left">
-                <img src="assets/images/Ansin, Glenson M.jpg" alt="My Picture">
-            </div>
-            <div class="about-right">
-                <p>If there were no words
-                    no way to speak
-                    I would still hear you
-                    If there were no tears
-                    no way to feel inside
-                    I'd still feel for you
-                    and even if the sun refused to shine
-                    even if romance ran out of rhyme
-                    you would still have my heart
-                    until the end of time
-                    you're all I need, my love, my valentine
-                    All of my life
-                    I have been waiting for
-                    all you give to me
-                    you've opened my eyes
-                    and showed me how to love unselfishly
-                    I've dreamed of this a thousand times before
-                    but in my dreams I couldn't love you more
-                    I will give you my heart
-                    untill the end of time
-                    you're all I need, my love, my valentine
-                    and even if the sun refused to shine
-                    even if romance ran out of rhyme
-                    you would still have my heart
-                    until the end of time
-                    cause all I need is you my valentine
-                    oh
-                    you're all I need, my love, my valentine
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="projects-section">
-        <div class="container">
-            <h2>My Projects</h2>
-            <div class="row-1">
-                <div class="col">
-                    <span><i class='bx bxl-visual-studio'></i></span>
-                    <p>Nadatnan ni Dennis si Marites na Nakatapis Alam na This</p>
-                </div>
-                <div class="col">
-                    <span><i class='bx bx-code-alt' ></i></span>
-                    <p>Nadatnan ni Dennis si Marites na Nakatapis Alam na This</p>
-                </div>
-                <div class="col">
-                    <span><i class='bx bxl-codepen' ></i></span>
-                    <p>Nadatnan ni Dennis si Marites na Nakatapis Alam na This</p>
-                </div>
-            </div>
-
-            <div class="row-2">
-                <div class="col">
-                    <span><i class='bx bxs-file-css' ></i></span>
-                    <p>Nadatnan ni Dennis si Marites na Nakatapis Alam na This</p>
-                </div>
-                <div class="col">
-                    <span><i class='bx bxs-extension' ></i></span>
-                    <p>Nadatnan ni Dennis si Marites na Nakatapis Alam na This</p>
-                </div>
-                <div class="col">
-                    <span><i class='bx bx-layer' ></i></span>
-                    <p>Nadatnan ni Dennis si Marites na Nakatapis Alam na This</p>
-                </div>
-            </div>
+            <p><q>DON'T PROBLEM THE PROBLEM, LET THE PROBLEM PROBLEM YOU!</q></p>
         </div>
     </section>
 
-    <section>
-        <section class="hire-me-banner">
-            <h3>Do you want to hire me?</h3>
-            <button>Hire Me</button>
-        </section>
-    </section>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"></a>
+            <div class="footer-logo">
+                <img src="../GlensonAnsin.github.io/assets/images/logo.png" alt="logo">
+            </div>
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2023 All Rights Reserved.</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/glenson.ansin"><i class='bx bxl-facebook-circle'></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://twitter.com/ansin_glenson"><i class='bx bxl-twitter'></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/glenson_ansin/"><i class='bx bxl-instagram'></i></a></li>
+          </ul>
+        </footer>
+      </div>
 </body>
 </html>
