@@ -54,10 +54,12 @@ main {
     background-attachment: fixed;
 }
 h2.pb-2.border-bottom {
-    padding-top: 200px;
-}
-h2.pb-2.border-bottom {
     color: white;
+    text-align: center;
+    -webkit-text-stroke: medium;
+    -webkit-text-stroke-color: black;
+    font-weight: 900;
+    padding-top: 200px;
 }
 .row.row-cols-1.row-cols-lg-3.align-items-stretch.g-4.py-5 {
     height: 80vh;
